@@ -1,0 +1,11 @@
+seed: 42
+device: auto
+data_dir: data
+artifact_dir: artifacts
+dataset: cifar10
+batch_size: 64
+epochs: 10
+learning_rate: 0.001
+weight_decay: 0.0001
+validation_fraction: 0.1
+quick_samples: null

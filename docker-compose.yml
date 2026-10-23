@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      ROBUSTVISION_DEVICE: cpu
+      ROBUSTVISION_ARTIFACT_DIR: /app/artifacts
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data

@@ -1,0 +1,3 @@
+model,clean_accuracy,mean_corrupted_accuracy,mean_accuracy_drop,worst_corruption,worst_severity,worst_accuracy,samples_per_condition,condition_count
+Baseline CNN,0.7087,0.46665599999999996,0.24204399999999995,gaussian_noise,5,0.1497,10000,25
+Fine-tuned ResNet18,0.8082,0.61434,0.19386000000000003,gaussian_blur,5,0.2783,10000,25
