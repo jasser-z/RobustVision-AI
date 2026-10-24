@@ -10,7 +10,7 @@ secrets/
 *.pem
 *.key
 service-account*.json
-data/
+/data/
 artifacts/*
 !artifacts/analysis/
 artifacts/analysis/*
